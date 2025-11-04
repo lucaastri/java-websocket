@@ -1,0 +1,190 @@
+/* Stili generali */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+h5 {
+    color: #7f8c8d;
+    margin-bottom: 5px;
+}
+
+/* Container principale */
+.container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Form e input */
+.form {
+    background-color: #ecf0f1;
+    border-left: 4px solid #3498db;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+/* Pulsanti */
+.button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.send {
+    background-color: #27ae60;
+    color: white;
+}
+
+.send:hover {
+    background-color: #219a52;
+}
+
+.end {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.end:hover {
+    background-color: #c0392b;
+}
+
+.list {
+    background-color: #3498db;
+    color: white;
+}
+
+.list:hover {
+    background-color: #2980b9;
+}
+
+.broad {
+    background-color: #9b59b6;
+    color: white;
+}
+
+.broad:hover {
+    background-color: #8e44ad;
+}
+
+.admin {
+    background-color: #e67e22;
+    color: white;
+}
+
+.admin:hover {
+    background-color: #d35400;
+}
+
+.group {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.group:hover {
+    background-color: #16a085;
+}
+
+/* Area log messaggi */
+.log {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    min-height: 200px;
+    max-height: 400px;
+    overflow-y: auto;
+    font-family: 'Courier New', monospace;
+    border-left: 4px solid #e74c3c;
+}
+
+.log p {
+    margin: 8px 0;
+    padding: 8px;
+    border-bottom: 1px solid #34495e;
+}
+
+.log p:last-child {
+    border-bottom: none;
+}
+
+.log p:hover {
+    background-color: #34495e;
+}
+
+/* Messaggi ricevuti */
+.input {
+    background-color: rgba(52, 152, 219, 0.1);
+    margin-left: 10px;
+    border-left: 3px solid #3498db;
+    padding-left: 10px;
+}
+
+/* Note */
+p {
+    color: #7f8c8d;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    .button {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+    }
+}
